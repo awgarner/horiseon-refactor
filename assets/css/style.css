@@ -1,3 +1,5 @@
+/* Global Styles */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -61,6 +63,8 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    /* I put some descriptor text in the empty hero div - trying to decide if some sort of A11y alt descriptor is necessary */
+    color: transparent;
 }
 
 .float-left {
@@ -72,6 +76,8 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+/* TO DO add .content and .befefits to the newly added <section> tags */
 
 .content {
     width: 75%;
