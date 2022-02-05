@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 16px;
+}
+
 /* Header and Nav Styles */
 
 header {
@@ -59,7 +63,7 @@ nav ul li {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-    /* I put some descriptor text in the empty hero div - trying to decide if some sort of A11y alt descriptor is necessary */
+    /* I put some transparent descriptor text in the empty hero div for A11y in the absence of an <img> tag with alt text */
     color: transparent;
 }
 
@@ -85,6 +89,28 @@ p {
     margin-left: 20px;
 }
 
+/* Main article styling - SEO, online reputation management, social media marketing */
+
+.card {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.card img {
+    max-height: 200px;
+}
+
+
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
 /* Benefit Section Styles */
 
 .benefits {
@@ -108,67 +134,10 @@ p {
     text-align: center;
 }
 
-
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Main article styling - SEO, online reputation management, social media marketing */
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Footer styling begins here */
